@@ -26,5 +26,6 @@ public class GenrateLog {
 	@AfterClass
 	public void teardown() {
 		driver.close();
+		System.out.println("git demo");
 	}
 }
